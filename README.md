@@ -1,1 +1,1 @@
-# HostelBackend
+# The Lux Portal Web App
