@@ -56,7 +56,7 @@ function ProductDetails() {
             </button>
             <div className="flex w-full border-t-[1px] border-[#b7b7b7] md:my-5" />
 
-            <p className="text-[16px] font-thin text-[#303030]">
+            <p className="text-[16px] font-light text-[#303030]">
               Category:{" "}
               <span className="text-[#CA7A7A] underline">
                 {" "}
@@ -73,23 +73,23 @@ function ProductDetails() {
           </h2>
 
           <div className="flex flex-col justify-left items-left pb-10 w-full border-y-[1px] border-[#b7b7b7] md:py-10 md:px-10">
-            <p className="text-xl font-thin ">Product Description</p>
-            <p className="text-[16px] font-thin text-[#303030]">
+            <p className="text-xl font-light ">Product Description</p>
+            <p className="text-[16px] font-light text-[#303030]">
               {product.description}
             </p>
             <p className="text-xl font-thin  mt-5">Includes</p>
-            <p className="text-[16px] font-thin text-[#303030]">
+            <p className="text-[16px] font-light text-[#303030]">
               Original packaging and invoice
             </p>
-            <p className="text-xl font-thin  mt-5">Measurements</p>
-            <p className="text-[16px] font-thin text-[#303030]">
+            <p className="text-xl font-light  mt-5">Measurements</p>
+            <p className="text-[16px] font-light text-[#303030]">
               L: 30cm D: 15cm H: 35cm
             </p>
           </div>
         </div>
 
         <div className="flex flex-col justify-center items-center md:mt-[100px] ">
-          <h2 className="text-2xl text-[#CA7A7A] underline font-thin uppercase">
+          <h2 className="text-2xl text-[#CA7A7A] underline font-light uppercase">
             ASK A QUESTION
           </h2>
 
@@ -100,7 +100,7 @@ function ProductDetails() {
                 className="flex flex-row justify-left items-left w-full  md:py-2 md:px-10 gap-5"
               >
                 <img src="/profile-pic.png" alt="" className="w-10 h-10" />
-                <p className="text-[14px] font-thin text-[#303030]">{q}</p>
+                <p className="text-[14px] font-light text-[#303030]">{q}</p>
               </div>
             ))}
             <input
