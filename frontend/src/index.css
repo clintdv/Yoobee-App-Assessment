@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cinzel", serif;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+}
+
+.custom-file-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  item-align: center;
+  position: relative;
+  text-align: center;
+  
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "UPLOAD IMAGE";
+  display: inline-block;
+  background: black;
+  padding: 10px 15px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  width: max-content;
+  margin: 0 auto;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: black;
+}
